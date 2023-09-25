@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./public/favicon.ico" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Multi-Translation App</title>
+  </head>
+  <body>
+    <section class="container">
+      <header class="header--cont">
+        <div class="trans--btn groot">Groot</div>
+        <div class="trans--btn ferb">Ferb</div>
+        <div class="trans--btn avatar">Avatar</div>
+        <div class="trans--btn irish">Irish</div>
+        <div class="trans--btn british">British</div>
+        <div class="trans--btn german">German</div>
+      </header>
+
+      <main class="main--cont">
+        
+        <div class="title--container">
+          <p class="selected--translation">None</p>
+        </div>
+        
+        <div class="input--container">
+          <div class="input--one">
+            <textarea name="input--one--textarea" id="text--one" cols="90" rows="5"></textarea>
+          </div>
+          <div class="btn--container">
+            <button class="translate--btn">
+              Translate
+            </button>
+          </div>
+          <div class="translation--text--ctn">
+            <p class="translation--text">Translation will come here</p>
+          </div>
+          <div class="input--two">
+            <textarea disabled="true" name="input--two--textarea" id="text--two" cols="90" rows="5" class="input--two--textarea"></textarea>
+          </div>
+        </div>
+      </main>
+    </section>
+
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
